@@ -1,0 +1,4 @@
+#Sun May 24 16:55:25 ECT 2020
+base.0=/home/diego/git/Android/AplicacionLlamada/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

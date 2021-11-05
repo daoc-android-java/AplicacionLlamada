@@ -2,34 +2,41 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="dordonez.aplicacionllamada" >
 4
-5    <application
-5-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:4:5-19:19
-6        android:allowBackup="true"
-6-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:5:9-35
-7        android:debuggable="true"
-8        android:icon="@mipmap/ic_launcher"
-8-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:6:9-43
-9        android:label="@string/app_name"
-9-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:7:9-41
-10        android:supportsRtl="true" >
-10-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:8:9-35
-11        <activity
-11-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:10:9-17:20
-12            android:name="dordonez.aplicacionllamada.CalledActivity"
-12-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:11:13-43
-13            android:label="@string/app_name" >
-13-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:12:13-45
-14            <intent-filter>
-14-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:13:13-16:29
-15                <action android:name="dordonez.aplicacionllamada.ACCION_SALUDO" />
-15-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:14:17-83
-15-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:14:25-80
-16
-17                <category android:name="android.intent.category.DEFAULT" />
-17-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:15:17-76
-17-->/home/diego/git/Android/AplicacionLlamada/app/src/main/AndroidManifest.xml:15:27-73
-18            </intent-filter>
-19        </activity>
-20    </application>
-21
-22</manifest>
+5    <uses-sdk android:minSdkVersion="21" />
+5-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml
+6
+7    <application
+7-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:4:5-20:19
+8        android:allowBackup="true"
+8-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:5:9-35
+9        android:debuggable="true"
+10        android:icon="@mipmap/ic_launcher"
+10-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:6:9-43
+11        android:label="@string/app_name"
+11-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:7:9-41
+12        android:supportsRtl="true"
+12-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:8:9-35
+13        android:testOnly="true" >
+14        <activity
+14-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:10:9-18:20
+15            android:name="dordonez.aplicacionllamada.CalledActivity"
+15-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:11:13-43
+16            android:label="@string/app_name" >
+16-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:12:13-45
+17            <intent-filter>
+17-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:13:13-17:29
+18                <action android:name="android.intent.action.MAIN" />
+18-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:14:17-69
+18-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:14:25-66
+19                <action android:name="dordonez.aplicacionllamada.ACCION_SALUDO" />
+19-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:15:17-83
+19-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:15:25-80
+20
+21                <category android:name="android.intent.category.LAUNCHER" />
+21-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:16:17-77
+21-->C:\Users\ordon\Github\Android\AplicacionLlamada\app\src\main\AndroidManifest.xml:16:27-74
+22            </intent-filter>
+23        </activity>
+24    </application>
+25
+26</manifest>
